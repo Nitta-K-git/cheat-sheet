@@ -26,7 +26,7 @@ myst_enable_extensions = ["html_image"]
 
 templates_path = ['_templates']
 exclude_patterns = []
-
+myst_heading_anchors = 5
 
 
 # -- Options for HTML output -------------------------------------------------

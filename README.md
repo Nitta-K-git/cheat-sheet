@@ -12,5 +12,9 @@ poetry install
 ## Build document
 
 ```sh
-poetry run sphinx-autobuild docs/source docs/html
+# build and start viewer
+poetry run sphinx-autobuild docs/source docs
+
+# build only
+poetry run sphinx-build -b html docs/source/ docs
 ```
