@@ -9,3 +9,5 @@ Cheat sheet documents
    :hidden:
 
    python
+   django
+
